@@ -1,13 +1,13 @@
 <!--
 CWB205 JavaScript - Project
-filename: index.html
+filename: mult.html
 author: Amandine Velamala
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact Us Page</title>
+	<title>Multiplication Game</title>
 	<link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -31,18 +31,21 @@ author: Amandine Velamala
       		</ul>
       	</nav>
 	</header>
-
-	<h1>Welcome to My First Games</h1>
-	
-	<p id="date"></p>
-	<p>To play, use the navigation menu to select a game.</p>
-	<div id="slide">
-		<img class="slides" src="img/rockPaperScissors.png" alt="rock paper scissors game">
-		<img class="slides" src="img/ticTacToe.png" alt="tic tac toe game">
-		<img class="slides" src="img/natParks.png" alt="multiplication game">
-		<img class="slides" src="img/mult.png" alt="CO national parks game">
+	<h1>Multiplication</h1>
+	<p>Enter your answer</p>
+	<div id="box" class="equation">
+		<span id="multiplicand"></span> x 
+		<span id="multiplier"></span> = 
+		<form id="multForm">
+			<input type="text" name="answer" id="answer">
+			<input id="submitanswer" type="submit" class="submit" value="Submit">
+		</form>
+		<div id="resultMsg"></div>
+				
+		<div id="continue" class="playAgain"></div>
 	</div>
 
-<script src="js/index.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/mult.js"></script>
 </body>
 </html>

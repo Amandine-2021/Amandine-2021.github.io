@@ -1,13 +1,13 @@
 <!--
 CWB205 JavaScript - Project
-filename: index.html
+filename: ticTacToe.html
 author: Amandine Velamala
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact Us Page</title>
+	<title>Tic Tac Toe Game</title>
 	<link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -31,18 +31,22 @@ author: Amandine Velamala
       		</ul>
       	</nav>
 	</header>
-
-	<h1>Welcome to My First Games</h1>
-	
-	<p id="date"></p>
-	<p>To play, use the navigation menu to select a game.</p>
-	<div id="slide">
-		<img class="slides" src="img/rockPaperScissors.png" alt="rock paper scissors game">
-		<img class="slides" src="img/ticTacToe.png" alt="tic tac toe game">
-		<img class="slides" src="img/natParks.png" alt="multiplication game">
-		<img class="slides" src="img/mult.png" alt="CO national parks game">
+	<h1>Tic Tac Toe</h1>
+	<div class="instructions" id="playInstructions"></div>
+	<div id="gridTTT">
+		<div id="div1" class="square"></div>
+		<div id="div2" class="square"></div>
+		<div id="div3" class="square"></div>
+		<div id="div4" class="square"></div>
+		<div id="div5" class="square"></div>
+		<div id="div6" class="square"></div>
+		<div id="div7" class="square"></div>
+		<div id="div8" class="square"></div>
+		<div id="div9" class="square"></div>	
 	</div>
+	
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/tictactoe.js"></script>
 
-<script src="js/index.js"></script>
 </body>
 </html>
