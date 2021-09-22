@@ -2,7 +2,7 @@ body {
 	max-width: 800px;
 	margin: auto;
 	font-family: Verdana, Arial, sans-serif;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.4;
 	color: #333;
 	background: #FFF;
@@ -12,11 +12,13 @@ h1 {
 	font-size: 22px;
 }
 h2 {
-  font-size: 17px;
+  	font-size: 17px;
+	color: brown;
+	font-weight: normal;
 }
 .project{
   
-  padding: 6px;
-  margin: 8px;
-  background-color: aliceblue;
+	 padding: 7px;
+	 margin: 8px;
+	 background-color: aliceblue;
 }
