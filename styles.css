@@ -3,7 +3,9 @@ body {
 	margin: auto;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 17px;
-	line-height: 1.4; 
+	line-height: 1.4;
+	color: #333;
+	background: #FFF;
 }
 h1 {
 	text-align: center;
@@ -15,5 +17,6 @@ h2 {
 .project{
   width: 80%;
   padding: 6px;
+  margin: 8px;
   background-color: aliceblue;
 }
