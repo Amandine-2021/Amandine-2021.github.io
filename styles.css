@@ -13,12 +13,16 @@ h1 {
 }
 h2 {
   	font-size: 17px;
-	color: brown;
+	color: slategrey;
 	font-weight: normal;
+	padding: none;
 }
 .project{
   
 	 padding: 7px;
-	 margin: 8px;
+	 margin: 12px;
 	 background-color: aliceblue;
+}
+a {
+	text-decoration: none;
 }
